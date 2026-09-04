@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+
+# AI Tools
+.aider*
+.claude/
+.gemini/
+.aider.input.history
+.aider.tags.cache.v4/
+.aider.chat.history.md
+
+# Data
+data/*
+!data/.gitkeep
+!data/raw/
+!data/processed/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.zip
+
+# Models
+results/models/*
+!results/models/.gitkeep
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
